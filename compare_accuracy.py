@@ -14,7 +14,7 @@ def calculate_match_percentage(file_path):
     total_entries = total_words + no_match_count
     match_percentage = (total_words / total_entries) * 100 if total_entries > 0 else 0
 
-    print(f"Total words: {total_words}")
+    print(f"Total words: {total_entries}")
     print(f"No match found entries: {no_match_count}")
     print(f"Match percentage: {match_percentage:.2f}%")
 
