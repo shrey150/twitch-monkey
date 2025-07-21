@@ -8,9 +8,6 @@ A production-ready system for downloading, storing, and analyzing Twitch chat lo
 ```bash
 # Install dependencies
 poetry install
-
-# Create .env file with your Supabase credentials:
-DATABASE_URL=postgresql://postgres.[YOUR-PROJECT-REF]:[YOUR-PASSWORD]@aws-0-[YOUR-REGION].pooler.supabase.com:5432/postgres
 ```
 
 ### **Core Commands**
