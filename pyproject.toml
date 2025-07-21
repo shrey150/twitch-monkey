@@ -1,0 +1,41 @@
+[project]
+name = "xqc-monkey"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Shrey Pandya",email = "shrey150@yahoo.com"}
+]
+requires-python = ">=3.13"
+dependencies = [
+    "requests",
+    "python-dateutil",
+    "loguru",
+    "tqdm",
+    "sqlalchemy",
+    "alembic",
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "psycopg2-binary (>=2.9.10,<3.0.0)"
+]
+
+
+[tool.poetry]
+name = "xqc-monkey"
+version = "0.1.0"
+description = "XQC chat logs downloader and analyzer with multi-channel support"
+authors = ["Your Name <your.email@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+requests = "^2.31.0"
+python-dateutil = "^2.8.2"
+loguru = "^0.7.2"
+tqdm = "^4.66.1"
+sqlalchemy = "^2.0.23"
+alembic = "^1.13.1"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
